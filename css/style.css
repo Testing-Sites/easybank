@@ -1,0 +1,19 @@
+* {
+  box-sizing: border-box;
+}
+
+/* --- header --- */
+.header {
+  padding: 24px;
+}
+
+/* flex */
+.header,
+.main-nav {
+  display: flex;
+}
+
+/* logo */
+.logo {
+  margin-right: auto;
+}
