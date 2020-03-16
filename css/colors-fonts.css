@@ -3,27 +3,34 @@
 
 /* Primary */
 :root {
-  --VeryDarkBlue: hsl(243, 87%, 12%);
-  --DesaturatedBlue: hsl(238, 22%, 44%);
-/* Accent */
-  --BrightBlue: hsl(224, 93%, 58%);
-  --ModerateCyan: hsl(170, 45%, 43%);
-/* Neutral */
-  --LightGrayishBlue: hsl(240, 75%, 98%);
-  --LightGray: hsl(0, 0%, 75%);
+  /* Primary */
+
+  --DarkBlue: hsl(233, 26%, 24%);
+  --LimeGreen: hsl(136, 65%, 51%);
+  --BrightCyan: hsl(192, 70%, 51%);
+
+  /* Neutral */
+
+  --GrayishBlue: hsl(233, 8%, 62%);
+  --LightGrayishBlue: hsl(220, 16%, 96%);
+  --VeryLightGray: hsl(0, 0%, 98%);
+  --White: hsl(0, 0%, 100%);
 }
 
 /* --- Typography --- */
 
 /* Headings | Call-to-actions | Header-Navigation */
-
-h1,
-h2,
-h3,
-h4 {
-  font-family: Raleway sans-serif;
+Body {
+  font-size: 16px;
+  font-family: public sans, sans-serif;
+  color: var(--DarkBlue);
 }
 
-Body {
-  font-family: open-sans sans-serif;
+h1 {
+  font-size: 2.5em;
+  font-weight: 400;
+}
+
+p {
+  line-height: 1.375em;
 }
