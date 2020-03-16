@@ -26,7 +26,7 @@
 }
 
 
-/* --- main --- */
+/* --- hero image and intro text --- */
 .hero-img {
   margin-top: -50px;
 
@@ -37,4 +37,23 @@
   background-image: url(../img/bg-intro-mobile.svg);
   background-repeat: no-repeat;
   background-size: 100% 117%;
+}
+
+/* intro text */
+.intro-text {
+  margin: 0 16px;
+  text-align: center;
+}
+
+/* button for intro text  */
+.btn {
+  padding: 16px;
+  width: 240px;
+  color: var(--White);
+  font-weight: 700;
+
+  background: linear-gradient(to left, hsl(192, 70%, 51%), hsl(136, 65%, 51%));
+  border-color: inherit;
+  border-radius: 50px;
+
 }
