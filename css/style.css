@@ -2,6 +2,11 @@
   box-sizing: border-box;
 }
 
+/* containers and padding */
+.container {
+  padding: 0 24px;
+}
+
 /* --- header --- */
 .header {
   padding: 24px;
@@ -56,4 +61,22 @@
   border-color: inherit;
   border-radius: 50px;
 
+}
+
+
+/* main body of inforation  */
+.main-bg {
+  background-color: var(--LightGrayishBlue);
+  margin-top: 64px;
+  padding-top: 64px;
+}
+
+.main-text {
+  text-align: center;
+}
+
+/* icons for main  */
+
+.icons {
+  margin-top: 24px;
 }
