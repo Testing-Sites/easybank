@@ -2,6 +2,12 @@
   box-sizing: border-box;
 }
 
+
+/* navigation flex */
+.nav-links {
+  display: flex;
+}
+
 /* containers and padding */
 .container-header,
 .container {
@@ -57,6 +63,7 @@
 }
 
 /* button for intro text  */
+
 .btn {
   padding: 16px;
   width: 240px;
@@ -68,7 +75,6 @@
   border-radius: 50px;
 
 }
-
 
 /* main body of inforation  */
 .main-bg {
@@ -91,6 +97,31 @@
 /* --- media queries --- */
 
 @media (min-width: 745px) {
+
+  /* navigation  */
+  .nav-links a,
+  .nav-links li {
+    text-decoration: none;
+    list-style-type: none;
+  }
+
+  .nav-links a {
+    padding: 0 16px;
+    color: var(--GrayishBlue);
+  }
+
+  .hamburger-menu {
+    display: none;
+  }
+
+
+  /* container header */
+  .container-header {
+    flex-direction: row;
+    align-items: center;
+  }
+
+  /* main image home */
   .hero-img {
     background-image: url(../img/bg-intro-desktop.svg);
     background-size: 142% 100%;
@@ -100,11 +131,13 @@
     margin-left: auto;
   }
 
+  /* background color for main */
   .main-bg {
     margin-top: -50px;
     padding-top: 64px;
   }
 
+  /* intro main home text  */
   .intro-text {
     text-align: left;
     max-width: 40%;
@@ -114,19 +147,16 @@
     text-align: left;
   }
 
-  .container-header {
-    flex-direction: row;
-    align-items: center;
-  }
-
-  .intro-text {
-    order: -1;
-  }
+  /* container for icons in main  */
 
   .container {
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-around;
+  }
+
+  .intro-text {
+    order: -1;
   }
 
   .col-1 {
